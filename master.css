@@ -1,0 +1,85 @@
+body{
+  /* position: relative; */
+  background-image: url(nature.jpg);
+  z-index: 0;
+  /* background-size:cover; */
+  /* background-repeat: no-repeat; */
+  background-position: center center;
+
+        /* Make image fixed */
+        background-attachment: fixed;
+
+        /* Not repeat images */
+        background-repeat: no-repeat;
+
+        /* Set background size auto */
+        background-size: auto;
+
+}
+.box{
+  text-align: center;
+  position: absolute;
+ top: 50%;
+ left: 41%;
+ margin: -25px 0 0 -25px;
+}
+h1{
+
+  z-index: 2;
+  color: #fff;
+  font-size: 4vw;
+  padding: 0;
+  margin: 0;
+  /* left:0.4vw;
+  top:-0.5vw; */
+}
+h2{
+  z-index: 2;
+  color: #fff;
+  font-size: 2.5vw;
+
+  margin:0;
+  /* color: white; */
+
+}
+@media screen and (max-width : 550px)
+{
+  body{
+    /* position: relative; */
+    text-align: center;
+    background-image: url(morning.jpg);
+    z-index: 0;
+    background-size:cover;
+    background-position: center center;
+
+          background-attachment: fixed;
+
+          background-repeat: no-repeat;
+
+    }
+    .box{
+      text-align: center;
+      position: absolute;
+     top: 5%;
+     left: 35%;
+     margin: auto;
+    }
+
+h1{
+  z-index: 2;
+  /* color: black; */
+  font-size: 6vw;
+  padding: 0;
+  margin: 0;
+
+}
+h2{
+  z-index: 2;
+  /* color: black; */
+  font-size: 4vw;
+
+  margin:0;
+
+}
+
+}
